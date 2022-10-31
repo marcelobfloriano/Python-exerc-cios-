@@ -1,2 +1,2 @@
-# Python exercícios 
+# Python exercícios! 
  
