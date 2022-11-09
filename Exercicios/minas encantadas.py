@@ -74,43 +74,5 @@ except Exception as m:
 
 
 
-'''somamaior = opcao = opcaomaior = soma = 0
-
-def calculaarea(a, b, c, d):
-    soma = 0
-    for m in range(a, b):
-        for n in range(c, d):
-            soma += matriz[m][n]
-    
-    print(soma)
-    return soma
-
-calculaarea(0,2,0,4)
-print(soma)'''
-
-
-'''for m in range(0, 2):
-    for n in range(0, 4):
-        soma += matriz[m][n]
-        print(matriz[m][n], end=' -> ')
-        print(f'm: {m} n: {n}', end='  ')
-
-
-print(f'Soma Atual:{soma}')
-
-opcao += 1
-soma = 0
-''for m in range(a, b):
-    for n in range(c+4, d+4):
-        soma += matriz[m][n]
-        print(matriz[m][n], end=' -> ')
-        print(f'm: {m} n: {n}', end='  ')
-        if soma > somamaior:
-            somamaior = soma
-            opcaomaior = opcao
-print(f'\nOpcao atual:{opcao}')
-print(f'Soma Atual:{soma}')
-print(f'Opcao maior:{opcaomaior}')
-print(f'Soma maior:{somamaior}')'''''
 
 
