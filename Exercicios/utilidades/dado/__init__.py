@@ -1,4 +1,3 @@
-from utilidades.arquivo import *
 def leiaDinheiro(msg):
     valido = False
     while not valido:
@@ -42,25 +41,7 @@ def menu(opcao):
     print('-' * 30)
     print('MENU PRINCIPAL'.center(30))
     print('-' * 30)
-    print(f'\33[33m1\33[m - \33[32mVer pessoas cadastradas\33[m')
-    print(f'\33[33m2\33[m - \33[32mCadastrar nova pessoa\33[m')
-    print(f'\33[33m3\33[m - \33[32mSair do Sistema\33[m')
-    while True:
-        res = leiaInt(opcao)
-        if res == 1:
-            print('-' * 30)
-            print('OPÇÃO 1'.center(30))
-            print('-' * 30)
-            print('lista')
-        elif res == 2:
-            print('-' * 30)
-            print('OPÇÃO 2'.center(30))
-            print('-' * 30)
-            print('cadastro')
-        elif res == 3:
-            print('-' * 30)
-            print('SAINDO DO SISTEMA... ATÉ LOGO!'.center(30))
-            print('-' * 30)
-            break
-        else:
-            print('\33[31mERRO!! Digite uma opcao valida\33[m')
+    print(f'\\33[33m1\\33[m - \\33[32mVer pessoas cadastradas\\33[m')
+    print(f'\\33[33m2\\33[m - \\33[32mCadastrar nova pessoa\\33[m')
+    print(f'\\33[33m3\\33[m - \\33[32mSair do Sistema\\33[m')
+    res = leiaInt('\\33[33mSua Opção:{opcao}\\33[m')
