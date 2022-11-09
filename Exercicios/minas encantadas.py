@@ -58,7 +58,7 @@ def calcularlucropelopontocartesiano(matriz, pilargura, pialtura, largura, altur
 
 
 try:
-    ret = calcularlucropelopontocartesiano(matriz1, 0, 0, 1, 2)
+    ret = calcularlucropelopontocartesiano(matriz1, 0, 0, 10, 20)
     print(ret)
 except Exception as m:
     print(m)
